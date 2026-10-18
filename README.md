@@ -53,6 +53,8 @@ The UI works **without** the LLM. The LLM only chooses among five predefined too
 Requirements: Docker, Python 3.9+.
 
 ```bash
+git clone https://github.com/vikrantraj2004/traceback-graph-hacks.git
+cd traceback-graph-hacks
 docker compose up -d                                  # FalkorDB on localhost:6379
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
